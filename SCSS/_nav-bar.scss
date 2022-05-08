@@ -1,0 +1,44 @@
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} 
+
+.navbar 
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+
+    li 
+    {
+        padding: 0 10px;
+
+        a 
+        {
+            color: #fff !important;
+            font-weight: 600;
+            float: right;
+            text-align: left;
+        }
+    }
+}
+
+.navbar-brand img 
+{
+    width: 100px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.fa-bars 
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+

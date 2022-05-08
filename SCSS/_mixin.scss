@@ -1,0 +1,12 @@
+@mixin titleBeforeAfter($coloreSfondo,$altezza, $larghezza, $margine_sinistro, $margine_destro, $margine-inferiore, $display, $translateY)
+{
+    content: '';
+    background-color: $coloreSfondo;
+    height: $altezza;
+    width: $larghezza;
+    margin-left: $margine_sinistro;
+    margin-right: $margine_destro;
+    margin-bottom: $margine-inferiore;
+    display: $display;
+    transform: $translateY;
+}
